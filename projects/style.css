@@ -351,3 +351,27 @@ header .navbar ul li a:hover{
   top: calc(100% - 12rem);
 }
 /* scroll top ends */
+
+
+
+.box-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.box {
+  width: 300px;
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.box img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.btns a {
+  margin-right: 10px;
+}
