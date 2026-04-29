@@ -28,5 +28,15 @@
       "view": "https://zenvyra-app.onrender.com/",
       "code": "https://github.com/JEETJM/zenvyra.git"
     }
+  },
+  {
+    "name": "TaskVerse",
+    "desc": "A professional MERN todo management app with task CRUD, priority tracking, filters, due dates, and MongoDB Atlas integration.",
+    "image": "taskVerse.png",
+    "category": "mern",
+    "links": {
+      "view": "https://taskverse-todo.onrender.com/",
+      "code": "https://github.com/JEETJM/taskverse-todo.git"
+    }
   }
 ]
