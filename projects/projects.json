@@ -38,5 +38,15 @@
       "view": "https://taskverse-todo.onrender.com/",
       "code": "https://github.com/JEETJM/taskverse-todo.git"
     }
+  },
+  {
+  "name": "VibeTalk",
+  "desc": "A real-time MERN chat application with authentication, messaging, voice, image sharing, and a modern WhatsApp-style UI.",
+  "image": "vibetalk.png",
+  "category": "mern",
+  "links": {
+    "view": "https://vibetalk-mern-chat.onrender.com",
+    "code": "https://github.com/JEETJM/vibetalk-mern-chat.git"
   }
+}
 ]
