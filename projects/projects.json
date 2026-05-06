@@ -40,13 +40,23 @@
     }
   },
   {
-  "name": "VibeTalk",
-  "desc": "A real-time MERN chat application with authentication, messaging, voice, image sharing, and a modern WhatsApp-style UI.",
-  "image": "vibetalk.png",
-  "category": "mern",
-  "links": {
-    "view": "https://vibetalk-mern-chat.onrender.com",
-    "code": "https://github.com/JEETJM/vibetalk-mern-chat.git"
+    "name": "VibeTalk",
+    "desc": "A real-time MERN chat application with authentication, messaging, voice, image sharing, and a modern WhatsApp-style UI.",
+    "image": "vibetalk.png",
+    "category": "mern",
+    "links": {
+      "view": "https://vibetalk-mern-chat.onrender.com",
+      "code": "https://github.com/JEETJM/vibetalk-mern-chat.git"
+    }
+  },
+  {
+    "name": "CivicFix AI",
+    "desc": "An AI-powered civic issue reporting and resolution tracking platform where citizens can submit complaints, auto-detect categories, view priority scores, track status, and monitor civic hotspots through dashboards and maps.",
+    "image": "civicfix-ai.png",
+    "category": "mern",
+    "links": {
+      "view": "https://civicfix-ai-jmdz.onrender.com",
+      "code": "https://github.com/JEETJM/civicfix-ai.git"
+    }
   }
-}
 ]
