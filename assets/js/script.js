@@ -257,3 +257,50 @@ srtop.reveal(".experience .timeline .container", { interval: 400 });
 /* SCROLL CONTACT */
 srtop.reveal(".contact .container", { delay: 400 });
 srtop.reveal(".contact .container .form-group", { delay: 400 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+const contactForm = document.getElementById("contact-form");
+
+if (contactForm) {
+  contactForm.addEventListener("submit", function (e) {
+    e.preventDefault();
+
+    const submitBtn = contactForm.querySelector("button");
+
+    submitBtn.disabled = true;
+    submitBtn.innerHTML = "Sending...";
+
+    emailjs
+      .sendForm(
+        "service_bo3sj5h",
+        "template_p28ewpw",
+        this
+      )
+      .then(() => {
+        alert("✅ Message sent successfully!");
+        contactForm.reset();
+
+        submitBtn.disabled = false;
+        submitBtn.innerHTML = 'Submit <i class="fa fa-paper-plane"></i>';
+      })
+      .catch((error) => {
+        console.error("EmailJS Error:", error);
+
+        alert("❌ Failed to send message. Please try again.");
+
+        submitBtn.disabled = false;
+        submitBtn.innerHTML = 'Submit <i class="fa fa-paper-plane"></i>';
+      });
+  });
+}
