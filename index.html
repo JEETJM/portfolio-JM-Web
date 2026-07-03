@@ -118,7 +118,8 @@
         </div>
 
         <div class="resumebtn">
-          <a href="https://drive.google.com/file/d/1frqxCZyDM3k40gdpWbij_m8ElDcDLf9n/view?usp=sharing" target="_blank" class="btn"><span>Resume</span>
+          <a href="https://drive.google.com/file/d/1frqxCZyDM3k40gdpWbij_m8ElDcDLf9n/view?usp=sharing" target="_blank"
+            class="btn"><span>Resume</span>
             <i class="fas fa-chevron-right"></i>
           </a>
         </div>
@@ -129,9 +130,10 @@
   <!-- about section ends -->
 
   <!-- skills section starts -->
-   <section class="skills" id="skills">
+  <section class="skills" id="skills">
 
-    <h2 class="heading"><i style="color: white;" class="fas fa-laptop-code" style="color:red"></i>  <span style="color: rgb(241, 51, 51);"> Skills & Abilities</span></h2>
+    <h2 class="heading"><i style="color: white;" class="fas fa-laptop-code" style="color:red"></i> <span
+        style="color: rgb(241, 51, 51);"> Skills & Abilities</span></h2>
 
     <div class="container">
       <div class="row" id="skillsContainer">
@@ -172,6 +174,22 @@
           <p>Berhampore Polytechnic College</p>
           <h4>Completed / Studied</h4>
         </div>
+
+
+
+        <div class="box">
+          <div class="image">
+            <img draggable="false" src="./assets/images/school.png" alt="Kandi Raj High School">
+          </div>
+          <div class="content">
+            <h3>Secondary & Higher Secondary Education</h3>
+            <p>Kandi Raj High School</p>
+            <h4>Class V – XII | WBBSE & WBCHSE | Completed</h4>
+          </div>
+        </div>
+
+
+
       </div>
 
     </div>
@@ -180,19 +198,19 @@
 
   <!-- work project section starts -->
   <section class="work" id="work">
-  <h2 class="heading">
-    <i class="fas fa-laptop-code"></i> Here Are My <span>Project's</span>
-  </h2>
+    <h2 class="heading">
+      <i class="fas fa-laptop-code"></i> Here Are My <span>Project's</span>
+    </h2>
 
-  <div class="box-container" id="home-projects"></div>
+    <div class="box-container" id="home-projects"></div>
 
-  <div class="viewall">
-    <a href="./projects/index.html" class="btn">
-      <span>View All</span>
-      <i class="fas fa-arrow-right"></i>
-    </a>
-  </div>
-</section>
+    <div class="viewall">
+      <a href="./projects/index.html" class="btn">
+        <span>View All</span>
+        <i class="fas fa-arrow-right"></i>
+      </a>
+    </div>
+  </section>
   <!-- work project section ends -->
 
   <!-- experience section starts -->
@@ -382,13 +400,13 @@
 
 
 
-<script>
-fetch("./projects/projects.json?v=" + Date.now())
-  .then(res => res.json())
-  .then(projects => {
-    const container = document.getElementById("home-projects");
+  <script>
+    fetch("./projects/projects.json?v=" + Date.now())
+      .then(res => res.json())
+      .then(projects => {
+        const container = document.getElementById("home-projects");
 
-    container.innerHTML = projects.map(project => `
+        container.innerHTML = projects.map(project => `
       <div class="box tilt">
         <img 
           src="./projects/images/${project.image}" 
@@ -417,9 +435,9 @@ fetch("./projects/projects.json?v=" + Date.now())
         </div>
       </div>
     `).join("");
-  })
-  .catch(err => console.log("Project load error:", err));
-</script>
+      })
+      .catch(err => console.log("Project load error:", err));
+  </script>
 
 
 
