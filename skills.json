@@ -33,8 +33,8 @@
     "icon": "https://img.icons8.com/color/48/000000/java-coffee-cup-logo--v1.png"
   },
   {
-    "name": "PHP",
-    "icon": "https://img.icons8.com/offices/48/000000/php-logo.png"
+    "name": "Tailwind CSS",
+    "icon": "https://cdn.simpleicons.org/tailwindcss"
   },
   {
     "name": "MongoDB",
@@ -59,11 +59,11 @@
     "icon": "https://img.icons8.com/glyph-neue/48/ffffff/github.png"
   },
   {
-  "name": "Vercel",
-  "icon": "assets/images/vrcll.jpeg"
-},
+    "name": "Vercel",
+    "icon": "assets/images/vrcll.jpeg"
+  },
   {
-  "name": "Render",
-  "icon": "assets/images/render.png"
-}
+    "name": "Render",
+    "icon": "assets/images/render.png"
+  }
 ]
