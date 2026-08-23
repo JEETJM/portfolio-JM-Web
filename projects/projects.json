@@ -58,5 +58,26 @@
       "view": "https://civicfix-ai-jmdz.onrender.com",
       "code": "https://github.com/JEETJM/civicfix-ai.git"
     }
+  },
+
+  {
+    "name": "GitPulse",
+    "desc": "A GitHub-powered developer intelligence platform that lets users search GitHub profiles, explore repositories, analyze open-source impact, and view developer statistics through a modern interactive dashboard.",
+    "image": "gitpulse.png",
+    "category": "fullstack",
+    "links": {
+      "view": "https://gitpulse-wine.vercel.app/",
+      "code": "https://github.com/JEETJM/GitPulse.git"
+    }
+  },
+  {
+    "name": "Drive Mad Game",
+    "desc": "An interactive browser-based racing game featuring physics-driven vehicle movement, challenging levels, animations, keyboard controls, and an engaging gameplay experience.",
+    "image": "drive-mad-game.png",
+    "category": "game",
+    "links": {
+      "view": "https://drive-mad-game-theta.vercel.app/",
+      "code": "https://github.com/JEETJM/Drive-Mad-Game.git"
+    }
   }
 ]
