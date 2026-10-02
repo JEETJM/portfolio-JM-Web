@@ -79,5 +79,25 @@
       "view": "https://drive-mad-game-theta.vercel.app/",
       "code": "https://github.com/JEETJM/Drive-Mad-Game.git"
     }
+  },
+  {
+    "name": "CampusMart",
+    "desc": "A trusted student marketplace for buying, selling, exchanging and renting useful products within your campus community.[cite: 1]",
+    "image": "CampusMart.png",
+    "category": "marketplace",
+    "links": {
+      "view": "https://campusmart-ai.onrender.com/",
+      "code": "https://github.com/JEETJM/CampusMart"
+    }
+  },
+  {
+    "name": "TradeNest",
+    "desc": "An online platform to invest in stocks, mutual funds, ETFs, bonds, and more.[cite: 2]",
+    "image": "TradeNest.png",
+    "category": "finance",
+    "links": {
+      "view": "https://tradenest-jlos.onrender.com/",
+      "code": "https://github.com/JEETJM/TradeNest"
+    }
   }
 ]
